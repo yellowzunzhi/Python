@@ -127,9 +127,31 @@
 # print(counter._JustCounter__secretCount)
 
 
+
+
+#类的专有方法，即magic method
+
+
+#运算符重载
+class Vector:
+    def __init__(self,a,b):
+	self.a = a
+	self.b = b
+    def __str__(self):
+	return ("Vector (%d,%d)"%(self.a,self.b))
+    def __add__(self,other):
+	return Vector(self.a + other.a, self.b + other.b)
+
+v1 = Vector (2,10)
+v2 = Vector (5,-2)
+
+print (v1 + v2)
+
 #http://www.runoob.com/python3/python3-class.html
 
-#很多的梦在等待着进行201711231156
+#很多的梦在等待着进行201711231209
+
+
 
 
 
