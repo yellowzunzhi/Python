@@ -5,4 +5,4 @@
 切换到目录
 >scrapy crawl music
 
-即可运行爬虫。
+即可运行爬虫
