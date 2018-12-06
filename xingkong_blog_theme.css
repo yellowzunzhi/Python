@@ -1,0 +1,124 @@
+/*基于ThinkInside 作为基础模板*/
+
+#sideBar,#blog_post_info_block
+ {
+    display: none;
+}
+
+#under_post_news
+ {
+    display: none;
+}
+
+
+/*评论框大小*/
+
+#tbCommentBody.comment_textarea{
+    width:890px;
+}
+
+
+/*尾部间距*/
+
+#footer
+ {
+   text-align:center;
+   border-top:2px solid green;
+   margin-left:25px;
+   margin-right:25px;
+   padding-top:10px;
+   padding-bottom:10px;
+}
+
+
+/*居中间距*/
+
+#mainContent .forFlow {
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+    float: none;
+    width: auto;
+    
+}
+
+/*评论框边框*/
+
+#comment_form_container,#blog-comments-placeholder
+{
+background-color:#f5f5f5;
+border-radius:6px 6px 6px 6px;
+padding:20px;
+}
+
+
+
+#comment_nav,#homepage1_HomePageDays_DaysList_ctl05_ImageLink
+{
+ display: none;
+}
+
+.postBody {
+    border-bottom: 2px solid green;
+}
+
+.day {
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin-bottom:5px;
+}
+
+.postSeparator {
+display: none;
+}
+
+
+.postTitle {
+    border-left: 3px solid #21759b;
+    font-size: 110%px;
+}
+
+.postTitle a:link, .postTitle a:visited, .postTitle a:active {
+    padding-left: 10px;
+}
+
+#cb_post_title_url.postTitle2
+{
+    font-size: 120%;
+}
+
+.dayTitle a:link
+{
+    display:none;
+}
+
+body
+{
+background-image: url("http://ww4.sinaimg.cn/large/637d0877gw1exlma5gj0wj21hc0u04p6.jpg");
+}
+
+#main {
+font-size:15px;
+font-family:微软雅黑;
+ padding-left: 0px;
+ padding-right: 0px;
+}
+
+#home {
+opacity: 0.95;
+width:970px;
+background-color:#f5f5f5;
+border-radius:6px 6px 6px 6px;
+box-shadow:0 0 20px black;
+}
+
+.feedbackCon {
+ background: url('http://images2015.cnblogs.com/blog/370709/201612/370709-20161230031921867-127780074.png') no-repeat 5px 0px;
+}
+
+.c_ad_block
+{
+display:none;
+}
