@@ -96,8 +96,16 @@ display: none;
 
 body
 {
-background-image: url("http://ww4.sinaimg.cn/large/637d0877gw1exlma5gj0wj21hc0u04p6.jpg");
+/* 滚动 */
+ background-image: url("http://ww4.sinaimg.cn/large/637d0877gw1exlma5gj0wj21hc0u04p6.jpg");
+
+/* 不滚动  */
+/* background: url(http://ww4.sinaimg.cn/large/637d0877gw1exlma5gj0wj21hc0u04p6.jpg) fixed;
+background-size: 100%;
+background-repeat: no-repeat; */
 }
+
+
 
 #main {
 font-size:15px;
@@ -118,7 +126,14 @@ box-shadow:0 0 20px black;
  background: url('http://images2015.cnblogs.com/blog/370709/201612/370709-20161230031921867-127780074.png') no-repeat 5px 0px;
 }
 
+/* 禁止显示广告 */
 .c_ad_block
+{
+display:none;
+}
+
+/* 禁止显示推荐 */
+#ad_t2
 {
 display:none;
 }
