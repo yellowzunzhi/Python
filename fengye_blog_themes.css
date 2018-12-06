@@ -1,0 +1,219 @@
+
+
+pre {
+    /*控制代码不换行*/
+    white-space: pre;
+    word-wrap: normal;
+}
+
+
+
+/*******************博客导航栏 *********************/
+#navList {
+    float: left;
+}
+
+#navList li {
+    border: none;
+    font-size: 16px;
+}
+
+.blogStats {
+    display: none;
+}
+
+
+
+/************** 主体内容样式 ***********************/
+.postBody {
+    padding: 20px 40px;
+}
+
+#cnblogs_post_body {
+    font-size: 15px;
+}
+
+#cnblogs_post_body h2 {
+    /*标题h2*/
+    border-left: 5px solid #FF3300;
+    padding: 10px 20px;
+    line-height: 2;
+    background: #d6dbdf8a;
+    margin: 30px 0;
+    font-size: 25px;
+}
+
+#cnblogs_post_body h3 {
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-left: 5px solid #FF3300;
+    font-size: 20px;
+}
+
+#cnblogs_post_body h4{
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+
+/********************************引言样式*****************************/
+blockquote {
+    border-left: 5px solid #FF3300;
+}
+
+blockquote strong {
+    color: red;
+    font-size: 18px;
+}
+
+
+
+/******************* 个性签名 ****************************/
+#MySignature {
+    box-shadow: 8px 1px 10px #989898;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #FFF;
+    font-size: 17px;
+    border-left: solid 5px #FF3300;
+    background: #F3F3F3;
+    border-radius: 10px 10px 50% 10px;
+    line-height: 2.4;
+    margin: 40px 0;
+}
+
+#MySignature a {
+    text-decoration: none;
+    color: #4183c4;
+    font-weight: bold;
+}
+
+#MySignature a:hover {
+    text-decoration: underline;
+    color: #f60;
+}
+
+#MySignature span {
+    color: #f60;
+}
+
+
+
+/********************** 上一篇下一篇 *************************/
+#post_next_prev {
+    font-size: 14px;
+    color: #535353;
+}
+
+
+
+/************************评论********************************/
+/*评论列表*/
+#blog-comments-placeholder {
+    border-radius: 10px;
+    background: #fff;
+    padding: 30px 40px;
+}
+
+.feedback_area_title {
+    background: url(//www.cnblogs.com/skins/red_autumnal_leaves/images/titlebg.png) no-repeat left center #fff;
+    border: 1px solid #FF3300;
+    border-left-width: 5px;
+    border-radius: 10px;
+    border-right-width: 5px;
+    padding: 15px 50px;
+}
+
+
+
+/******************** 提交评论按钮 *******************************/
+#btn_comment_submit {
+    border: solid 1px #fd6d0dd1 !important;
+    width: 90px;
+    height: 40px;
+    color: #fff !important;
+    background-color: #fd6d0dd1 !important;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+/********************隐藏广告******************************/
+#ad_t2, #cnblogs_c1, #under_post_news, #cnblogs_c2, #under_post_kb {
+    display: none;
+}
+/*******************隐藏搜索框*****************************/
+#widget_my_google, #google_q{
+    display: none;
+}
+
+
+
+/*****************************侧边栏公告***********************/
+#blog-news > img {
+    /*头像*/
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#profile_block {
+    font-size: 15px;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+#profile_block > a:link {
+    color: #F60;
+}
+/*公告结束*/
+
+
+
+/****************************侧边评论**********************************/
+li.recent_comment_body {
+    line-height: 30px;
+}
+
+
+/********************************* 禁用下划线 *************************/
+.postBody a:link, .postBody a:visited, .postBody a:active {
+    text-decoration: none;
+}
+
+
+
+/**********************sideBar博客侧边栏容器**********************************/
+#sideBarMain h3, .newsItem h3 {
+    font-size: 1.2em;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 0.5em;
+    background: url(http://www.cnblogs.com/skins/red_autumnal_leaves/images/titlebg.png) no-repeat left center #fff;
+    padding: 0 0 0 50px;
+    margin-bottom: 0;
+    border: 1px solid #FF3300;
+    border-left-width: 5px;
+    border-radius: 10px;
+    border-right-width: 5px;
+}
+.newsItem, .catListComment, .catListEssay, .catListView, .catListFeedback,
+#blog-calendar, #sidebar_postcategory, #sidebar_postcategory, #sidebar_postarchive, #sidebar_search {
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px #A7A8AD;
+    background-color: #fff;
+}
+#sideBarMain ul {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#sideBarMain li {
+    line-height: 40px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
